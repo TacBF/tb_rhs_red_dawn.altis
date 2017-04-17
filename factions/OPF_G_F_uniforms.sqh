@@ -1,0 +1,254 @@
+uniforms[] =
+{
+//===========================================================================
+// UNIFORMS
+//===========================================================================
+
+	//{"U_OG_GhillieSuit", {__ICE_gear_Sniper}},
+	{"U_C_HunterBody_grn", {__ICE_gear_Pilot}},
+
+	
+	{"U_O_GhillieSuit", {__ICE_gear_Sniper}},
+	{"U_OG_Guerilla1_1", {__ICE_gear_allRoles}}, // military camo
+	//{"U_OG_Guerilla2_1", {__ICE_gear_allRoles}},
+	{"U_OG_Guerilla2_2", {__ICE_gear_allRoles}},
+	{"U_OG_Guerilla2_3", {__ICE_gear_allRoles}},
+	{"U_OG_leader", {__ICE_gear_SL}},
+	//{"U_OG_Guerilla3_1", {__ICE_gear_allRoles}},
+	//{"U_OG_Guerilla3_2", {__ICE_gear_allRoles}},
+	
+	{"U_BG_Guerilla3_1", {__ICE_gear_allRoles}},
+	{"U_BG_Guerrilla_6_1", {__ICE_gear_allRoles}},
+	{"U_I_Wetsuit", {__ICE_gear_Diver}},
+
+
+	//{"U_IG_GhillieSuit", {__ICE_gear_Sniper}},
+	/*
+	{"U_IG_Guerilla1_1", {__ICE_gear_allRoles}},
+	{"U_IG_Guerilla2_1", {__ICE_gear_allRoles}},
+	{"U_IG_Guerilla2_2", {__ICE_gear_allRoles}},
+	{"U_IG_Guerilla2_3", {__ICE_gear_allRoles}},
+	{"U_IG_Guerilla3_1", {__ICE_gear_allRoles}},
+	{"U_IG_Guerilla3_2", {__ICE_gear_allRoles}},
+	*/
+	//{"U_IG_Guerilla4_1", {__ICE_gear_allRoles}}, // mil camo
+	//{"U_IG_Guerilla4_2", {__ICE_gear_allRoles}}, // mil camo
+	//{"U_IG_Guerilla5_1", {__ICE_gear_allRoles}}, // mil camo
+	//{"U_IG_Guerilla6_1", {__ICE_gear_allRoles}}, // mil camo
+	//{"U_IG_Guerilla6_2", {__ICE_gear_allRoles}}, // mil camo
+
+	//{"U_Rangemaster", {__ICE_gear_allRoles}},
+	//{"U_Competitor", {__ICE_gear_allRoles}},
+
+	/*
+  {"U_C_Poor_1", {__ICE_gear_allRoles}},
+  {"U_C_Poor_2", {__ICE_gear_allRoles}},
+  {"U_C_Scavenger_1", {__ICE_gear_allRoles}},
+  {"U_C_Scavenger_2", {__ICE_gear_allRoles}},
+  {"U_C_Farmer", {__ICE_gear_allRoles}},
+  {"U_C_Fisherman", {__ICE_gear_allRoles}},
+  {"U_C_WorkerOveralls", {__ICE_gear_allRoles}},
+  {"U_C_FishermanOveralls", {__ICE_gear_allRoles}},
+  {"U_C_WorkerCoveralls", {__ICE_gear_allRoles}},
+  {"U_C_HunterBody_grn", {__ICE_gear_allRoles}},
+  {"U_C_HunterBody_brn", {__ICE_gear_allRoles}},
+  {"U_C_Poloshirt_blue", {__ICE_gear_allRoles}},
+  {"U_C_Poloshirt_burgundy", {__ICE_gear_allRoles}},
+  {"U_C_Poloshirt_stripped", {__ICE_gear_allRoles}},
+  {"U_C_Poloshirt_tricolour", {__ICE_gear_allRoles}},
+  {"U_C_Poloshirt_salmon", {__ICE_gear_allRoles}},
+  {"U_C_Poloshirt_redwhite", {__ICE_gear_allRoles}},
+
+  
+
+  {"U_C_Commoner1_1", {__ICE_gear_allRoles}},
+  {"U_C_Commoner1_2", {__ICE_gear_allRoles}},
+  {"U_C_Commoner1_3", {__ICE_gear_allRoles}},
+  {"U_C_Commoner2_1", {__ICE_gear_allRoles}},
+  {"U_C_Commoner2_2", {__ICE_gear_allRoles}},
+  {"U_C_Commoner2_3", {__ICE_gear_allRoles}},
+  {"U_C_Commoner3_1", {__ICE_gear_allRoles}},
+  {"U_C_Commoner3_2", {__ICE_gear_allRoles}},
+  {"U_C_Commoner3_3", {__ICE_gear_allRoles}},
+  {"U_C_Commoner4_1", {__ICE_gear_allRoles}},
+  {"U_C_Commoner4_2", {__ICE_gear_allRoles}},
+  {"U_C_Commoner4_3", {__ICE_gear_allRoles}},
+  {"U_C_PriestBody", {__ICE_gear_allRoles}},
+  {"U_C_Poor_shorts_1", {__ICE_gear_allRoles}},
+  {"U_C_Poor_shorts_2", {__ICE_gear_allRoles}},
+  {"U_C_Commoner_shorts", {__ICE_gear_allRoles}},
+  {"U_C_ShirtSurfer_shorts", {__ICE_gear_allRoles}},
+  {"U_C_TeeSurfer_shorts_1", {__ICE_gear_allRoles}},
+  {"U_C_TeeSurfer_shorts_2", {__ICE_gear_allRoles}},
+	*/
+  //{"U_I_CombatUniform", {__ICE_gear_allRoles}},
+	/*
+  {"U_I_CombatUniform_tshirt", {__ICE_gear_allRoles}},
+  {"U_I_CombatUniform_shortsleeve", {__ICE_gear_allRoles}},
+  {"U_I_PilotCoveralls", {__ICE_gear_allRoles}},
+  {"U_I_GhillieSuit", {__ICE_gear_allRoles}},
+  {"U_I_Wetsuit", {__ICE_gear_allRoles}},
+
+  {"U_IG_Guerilla1_1", {__ICE_gear_allRoles}},
+  {"U_IG_Guerilla2_1", {__ICE_gear_allRoles}},
+  {"U_IG_Guerilla2_2", {__ICE_gear_allRoles}},
+  {"U_IG_Guerilla3_1", {__ICE_gear_allRoles}},
+  {"U_IG_Guerilla3_2", {__ICE_gear_allRoles}},
+  {"U_IG_Guerilla4_1", {__ICE_gear_allRoles}}, // mil camo
+  {"U_IG_Guerilla4_2", {__ICE_gear_allRoles}}, // mil camo
+  {"U_IG_Guerilla5_1", {__ICE_gear_allRoles}}, // mil camo
+  {"U_IG_Guerilla6_1", {__ICE_gear_allRoles}}, // mil camo
+  {"U_IG_Guerilla6_2", {__ICE_gear_allRoles}}, // mil camo
+  {"U_IG_GhillieSuit", {__ICE_gear_allRoles}},
+
+  {"U_NikosBody", {__ICE_gear_allRoles}},
+  {"U_MillerBody", {__ICE_gear_allRoles}},
+  {"U_KerryBody", {__ICE_gear_allRoles}},
+  {"U_OrestesBody", {__ICE_gear_allRoles}},
+  {"U_AttisBody", {__ICE_gear_allRoles}},
+  {"U_AntigonaBody", {__ICE_gear_allRoles}},
+  {"U_IG_Menelaos", {__ICE_gear_allRoles}},
+  {"U_C_Novak", {__ICE_gear_allRoles}},
+  {"U_O_Scientist", {__ICE_gear_allRoles}},
+	*/
+
+//===========================================================================
+// VESTS
+//===========================================================================
+
+	{"V_Rangemaster_belt", {__ICE_gear_allRoles}}, // 10
+	{"V_Rangemaster_belt", {__ICE_gear_allRoles}},
+	{"V_BandollierB_khk", {__ICE_gear_allRoles}},
+	// {"V_BandollierB_rgr", {__ICE_gear_allRoles}}, // not in v0.72
+	{"V_BandollierB_cbr", {__ICE_gear_allRoles}},
+	/*
+	{"V_PlateCarrier1_rgr", {__ICE_gear_allRoles}},
+	//{"V_PlateCarrier1_cbr", {__ICE_gear_allRoles}}, // not in v0.76
+	{"V_PlateCarrier1_blk", {__ICE_gear_allRoles}},
+	{"V_PlateCarrier2_rgr", {__ICE_gear_allRoles}},
+	{"V_PlateCarrier2_cbr", {__ICE_gear_allRoles}},
+	{"V_PlateCarrier2_blk", {__ICE_gear_allRoles}},
+	{"V_PlateCarrierGL_rgr", {__ICE_gear_allRoles}},
+	{"V_PlateCarrierGL_cbr", {__ICE_gear_allRoles}},
+	{"V_PlateCarrierGL_blk", {__ICE_gear_allRoles}},
+	{"V_PlateCarrierSpec_rgr", {__ICE_gear_allRoles}},
+	{"V_PlateCarrierSpec_cbr", {__ICE_gear_allRoles}},
+	*/
+	{"V_Chestrig_khk", {__ICE_gear_allRoles}},
+	//{"V_ChestrigB_rgr", {__ICE_gear_allRoles}}, // not in v0.58
+	/*
+	{"V_ChestrigB_blk", {__ICE_gear_allRoles}},
+	{"V_ChestrigB_khk", {__ICE_gear_allRoles}},
+	*/
+	{"V_Chestrig_blk", {__ICE_gear_allRoles}},
+	//{"V_Chestrig_camo", {__ICE_gear_allRoles}},
+	{"V_TacVest_khk", {__ICE_gear_allRoles}},
+	{"V_TacVest_brn", {__ICE_gear_allRoles}},
+	{"V_TacVest_blk", {__ICE_gear_allRoles}},
+	{"V_TacVest_camo", {__ICE_gear_allRoles}},
+	{"V_TacVest_oli", {__ICE_gear_allRoles}},
+	//{"V_TacVest_blk_POLICE", {__ICE_gear_allRoles}},
+	//{"V_TacVestIR_blk", {__ICE_gear_allRoles}},
+	{"V_HarnessO_brn", {__ICE_gear_allRoles}},
+	{"V_HarnessO_gry", {__ICE_gear_allRoles}},
+	{"V_HarnessOGL_brn", {__ICE_gear_allRoles}},
+	{"V_HarnessOGL_gry", {__ICE_gear_allRoles}},
+	{"V_HarnessOSpec_brn", {__ICE_gear_allRoles}},
+	{"V_HarnessOSpec_gry", {__ICE_gear_allRoles}},
+	{"V_TacVestCamo_khk", {__ICE_gear_allRoles}},
+	/*
+	{"V_PlateCarrierIA1_khk", {__ICE_gear_allRoles}},
+	{"V_PlateCarrierIA2_khk", {__ICE_gear_allRoles}},
+	{"V_PlateCarrierIAGL_khk", {__ICE_gear_allRoles}},
+	{"V_RebreatherB", {__ICE_gear_allRoles}},
+	{"V_RebreatherIR", {__ICE_gear_allRoles}},
+	*/
+	
+	{"V_RebreatherIA", {__ICE_gear_Diver}},
+
+	{"rhs_vydra_3m", {__ICE_gear_allRoles}},
+	//{"rhs_6sh46", {__ICE_gear_allRoles}},
+	//{"rhs_6b23", {__ICE_gear_allRoles}},
+	
+	
+
+
+//===========================================================================
+// HELMETS
+//===========================================================================
+
+
+	{"H_ShemagOpen_khk", {__ICE_gear_CombatEngineer}},
+
+	{"H_MilCap_ocamo", {__ICE_gear_allRoles}},
+	{"H_MilCap_oucamo", {__ICE_gear_allRoles}},
+	{"H_MilCap_gry", {__ICE_gear_allRoles}},
+	{"H_MilCap_blue", {__ICE_gear_allRoles}},
+	
+	{"H_Bandanna_khk", {__ICE_gear_allRoles}},
+	{"H_Bandanna_cbr", {__ICE_gear_allRoles}},
+	{"H_Bandanna_camo", {__ICE_gear_allRoles}},
+	{"H_Bandanna_mcamo", {__ICE_gear_allRoles}},
+	
+
+	{"H_Shemag_khk", {__ICE_gear_allRoles}},
+	{"H_ShemagOpen_tan", {__ICE_gear_allRoles}},
+
+	{"H_Beret_blk", {__ICE_gear_allRoles}},
+	
+	{"H_Watchcap_blk", {__ICE_gear_allRoles}},	
+	{"H_Watchcap_cbr", {__ICE_gear_allRoles}},
+	{"H_Watchcap_camo", {__ICE_gear_allRoles}},
+	{"H_Watchcap_khk", {__ICE_gear_allRoles}},
+	
+
+	{"H_Booniehat_mcamo", {__ICE_gear_allRoles}},
+	{"H_Booniehat_tan", {__ICE_gear_allRoles}},
+	{"H_Booniehat_dgtl", {__ICE_gear_allRoles}}, // AAF
+
+	{"H_Cap_red", {__ICE_gear_allRoles}},
+	{"H_Cap_tan", {__ICE_gear_allRoles}},
+	{"H_Cap_blk", {__ICE_gear_allRoles}},
+	{"H_Cap_blk_CMMG", {__ICE_gear_allRoles}},
+	{"H_Cap_grn", {__ICE_gear_allRoles}},
+	{"H_Cap_blu", {__ICE_gear_allRoles}},
+	{"H_Cap_blk_Raven", {__ICE_gear_allRoles}},
+	{"H_Cap_headphones", {__ICE_gear_Sniper}},
+	{"rhs_zsh7a_mike", {__ICE_gear_Pilot}},
+	
+	//===========================================================================
+// GOGGLES
+	
+	{"G_Bandanna_blk", {__ICE_gear_allRoles}},
+	{"G_Bandanna_beast", {__ICE_gear_infantryRoles}},
+	{"G_Bandanna_khk", {__ICE_gear_infantryRoles}},
+	{"G_Bandanna_oli", {__ICE_gear_infantryRoles}},
+	{"G_Bandanna_tan", {__ICE_gear_infantryRoles}},
+	
+	{"G_Bandanna_aviator", {__ICE_gear_allRoles}},
+	{"G_Balaclava_oli", {__ICE_gear_allRoles}},
+	{"G_Balaclava_lowprofile", {__ICE_gear_allRoles}},
+	{"G_Balaclava_blk", {__ICE_gear_allRoles}},
+	{"G_Bandanna_shades", {__ICE_gear_allRoles}},
+	{"G_Bandanna_sport", {__ICE_gear_allRoles}},
+	{"G_Aviator", {__ICE_gear_allRoles}},	
+	
+	{"G_Shades_Black", {__ICE_gear_allRoles}},
+	{"G_Shades_Blue", {__ICE_gear_allRoles}},
+	{"G_Sport_Blackred", {__ICE_gear_allRoles}},
+	{"G_Spectacles", {__ICE_gear_allRoles}},
+	{"G_Spectacles_Tinted", {__ICE_gear_allRoles}},
+	{"G_Lowprofile", {__ICE_gear_allRoles}},
+	{"G_Shades_Green", {__ICE_gear_allRoles}},
+	{"G_Shades_Red", {__ICE_gear_allRoles}},
+	{"G_Squares_Tinted", {__ICE_gear_allRoles}},
+	{"G_Sport_BlackWhite", {__ICE_gear_allRoles}},
+	{"G_Sport_Blackyellow", {__ICE_gear_allRoles}},
+	{"G_Sport_Greenblack", {__ICE_gear_allRoles}},
+	{"G_Sport_Red", {__ICE_gear_allRoles}},
+	
+	{"G_Diving", {__ICE_gear_Diver}}
+
+//===========================================================================
+	
+};

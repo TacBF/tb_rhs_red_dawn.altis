@@ -1,0 +1,59 @@
+#define _MG ["RDS_M2StaticMG_FIA","RDS_M2StaticMG_CSAT","RDS_M2StaticMG_AAF","RHS_M2StaticMG_WD","RHS_M2StaticMG_D","RHS_M2StaticMG_USMC_WD","RHS_M2StaticMG_USMC_D",\
+           "RDS_KORD_high_FIA","RDS_KORD_high_CSAT","RDS_KORD_high_AAF","rhs_KORD_high_VDV","rhs_KORD_high_MSV","rhs_KORD_high_INS",\
+           "RDS_DSHKM_FIA","RDS_DSHKM_AAF","RDS_DSHKM_CSAT","rhs_DSHKM_ins","RDS_Igla_AA_pod_FIA","RDS_Igla_AA_pod_CSAT",\
+           "RDS_Igla_AA_pod_AAF","rhs_Igla_AA_pod_vdv","rhs_Igla_AA_pod_msv","rhs_Igla_AA_pod_ins"]
+#define _ZU ["RDS_ZU23_FIA","RDS_ZU23_CSAT","RDS_ZU23_AAF"]
+#define _LMG ["RDS_M2StaticMG_MiniTripod_FIA","RDS_M2StaticMG_MiniTripod_CSAT","RDS_M2StaticMG_MiniTripod_AAF","RHS_M2StaticMG_MiniTripod_WD","RHS_M2StaticMG_MiniTripod_D",\
+            "RHS_M2StaticMG_MiniTripod_USMC_WD","RHS_M2StaticMG_MiniTripod_USMC_D","RDS_KORD_CSAT","RDS_KORD_AAF","RDS_KORD_FIA","rhs_KORD_VDV","rhs_KORD_MSV","rhs_KORD_INS",\
+            "RDS_DSHkM_Mini_TriPod_CSAT","RDS_DSHkM_Mini_TriPod","RDS_DSHkM_Mini_TriPod_FIA","rhs_DSHKM_Mini_TriPod_ins","RHS_NSV_TriPod_VDV","RHS_NSV_TriPod_MSV","RHS_NSV_TriPod_INS",\
+            "RDS_Metis_CSAT","RDS_Metis_AAF","RDS_Metis_FIA","rhs_Metis_9k115_2_vdv","rhs_Metis_9k115_2_msv","rhs_Metis_9k115_2_ins","rhs_Metis_9k115_1_ins","RDS_AGS_CSAT",\
+            "RDS_AGS_AAF","RDS_AGS_FIA","RHS_AGS30_TriPod_VDV","RHS_AGS30_TriPod_MSV","RHS_AGS30_TriPod_INS","RHS_MK19_TriPod_WD","RHS_MK19_TriPod_D","RHS_MK19_TriPod_USMC_WD",\
+            "RHS_MK19_TriPod_USMC_D","RDS_MK19_TriPod_AAF","RDS_MK19_TriPod_FIA"]
+#define _SPG ["RDS_SPG9_FIA","RDS_SPG9_CSAT","RDS_SPG9_AAF","rhs_SPG9_INS"]
+#define _L ["RDS_TOW_TriPod_FIA","RDS_TOW_TriPod_AAF","RHS_TOW_TriPod_WD","RHS_TOW_TriPod_D","RHS_TOW_TriPod_USMC_D","RHS_TOW_TriPod_USMC_WD"]
+#define _M ["RDS_M252_AAF","RDS_M252_FIA","RDS_M252_CSAT","RDS_2b14_82mm_FIA","RDS_2b14_82mm_CSAT","RDS_2b14_82mm_AAF"]
+#define __ALLOBJECT _MG+_ZU+_LMG+_SPG+_L+_M
+#define __ALLOBJARR [_L,_LMG,_SPG,_ZU,_MG,_M]
+
+#define _OFFROADCAR [[ "B_G_Van_01_transport_F","C_Van_01_transport_F","C_Offroad_01_F","B_G_Offroad_01_F","TB_O_G_Offroad_01_F"],[-2.5,-1.2,-1.5],[0,-6,0.25],\
+                  [[0,-1.5,0.25],180,1],[[-0.3,-1.5,0.6],180,1],[[-0.1,-2,-0.7],180,1],[[0.05,-2,1.55],180,1],[[0.25,-2,1]],[[0,-2,0]]]
+				  
+#define _ZAMAKCAR [[ "O_Truck_02_transport_F","I_Truck_02_transport_F","TB_O_G_Truck_02_transport_F","TB_O_Truck_02_transport_camo_F","TB_O_Truck_02_transport_green_F"],[-2.5,-1.6,-2.5],[0,-7,0.25],\
+                 [[0,-1.5,0.25],180],[[-0.3,-1.5,0.6],180],[[-0.1,-2,-0.7],180],[[0.05,-2,1.55],180],[[0.25,-2,1]],[[0,-2,0]]]
+				 
+#define _HAMMERCAR [[ "rhsusf_m998_w_2dr","rhsusf_m998_d_2dr","rhsusf_m998_w_s_2dr","rhsusf_m998_d_s_2dr"],[-2.5,-1.2,-1.5],[0,-5,0.25],\
+                 [[0,-2.0,0.35]],[[-0.3,-1.8,0.3],180],[[-0.1,-2,-0.7],180],[[0.05,-2,1],180],[[0.25,-1.8,0.6]],[[0,-1.8,-0.15]]]
+				 
+#define _UAZCAR [[ "rhs_uaz_open_vv","rhs_uaz_open_vdv","rhs_uaz_open_MSV_01","rhs_uaz_open_chdkz"],[-2.5,-1.2,-1],[0,-5,0.25],\
+                 false,[[0.5,-1,2],180],[[-0.1,-2,1.8],180],false,[[0.3,-1.1,2.6]],[[0,-1.8,1.7]]]
+				 
+#define _GAZCAR [[ "rhs_gaz66o_vv","rhs_gaz66o_vdv","rhs_gaz66o_vmf","rhs_gaz66o_msv","rhs_gaz66o_flat_vv","rhs_gaz66o_flat_vdv","rhs_gaz66o_flat_vmf","rhs_gaz66o_flat_msv"],[-2.5,-1.2,-1.7],[0,-7,0.25],\
+                 [[0,-3,1],180],[[-0.2,-3.1,1.2],180],[[0,-3.5,-0.15],180],[[0.1,-3,2],180],[[-0.2,-2.3,1.45],180],[[0,-2.5,0.6],180]]
+				 
+#define _URALINSCAR [[ "RHS_Ural_Open_Civ_02","rhs_ural_open_chdkz","RHS_Ural_Open_Civ_03","RHS_Ural_Open_Civ_01"],[-2.5,-1.2,-2.1],[0,-7,0.25],\
+                 [[0,-2,2.6],180],[[-0.2,-2.2,2.8],180],[[0,-2.8,1.55],180],[[0.2,-2,3.6],180],[[0.3,-2,3.2]],[[0,-2,2.3]]]
+				 
+#define _URALARMCAR [[ "RHS_Ural_Open_VV_01","RHS_Ural_Open_VDV_01","RHS_Ural_Open_VMF_01","RHS_Ural_Open_MSV_01","RHS_Ural_Open_Flat_VDV_01","RHS_Ural_Open_Flat_VMF_01","RHS_Ural_Open_Flat_MSV_01","RHS_Ural_Open_Flat_VV_01"],[-2.5,-1.2,-2.1],[0,-7,0.25],\
+                 [[0,-2,0.6],180],[[-0.2,-2.2,0.8],180],[[0,-2.8,-0.4],180],[[0.2,-2,1.6],180],[[0.3,-2,1.2]],[[0,-2,0.3]]]
+				 
+#define _MSEVENCAR [[ "rhsusf_M1078A1P2_wd_open_fmtv_usarmy","rhsusf_M1078A1P2_d_open_fmtv_usarmy","rhsusf_M1078A1P2_wd_flatbed_fmtv_usarmy","rhsusf_M1078A1P2_d_flatbed_fmtv_usarmy",\
+                 "rhsusf_M1078A1P2_B_wd_open_fmtv_usarmy","rhsusf_M1078A1P2_B_d_open_fmtv_usarmy","rhsusf_M1078A1P2_B_wd_flatbed_fmtv_usarmy","rhsusf_M1078A1P2_B_d_flatbed_fmtv_usarmy"],[-2.5,-1.2,-1.7],[0,-7,0.25],\
+                 [[0,-1.5,0.9],180],[[-0.2,-1.6,1.0],180],[[0,-2.0,-0.25],180],[[0.1,-1.5,1.9],180],[[-0.2,-0.5,1.35],180],[[0,-0,0.5],180]]
+				 
+#define _MEIGHTCAR [[ "rhsusf_M1083A1P2_wd_open_fmtv_usarmy","rhsusf_M1083A1P2_d_open_fmtv_usarmy","rhsusf_M1083A1P2_wd_flatbed_fmtv_usarmy","rhsusf_M1083A1P2_d_flatbed_fmtv_usarmy",\
+                 "rhsusf_M1083A1P2_B_wd_open_fmtv_usarmy","rhsusf_M1083A1P2_B_d_open_fmtv_usarmy","rhsusf_M1083A1P2_B_wd_flatbed_fmtv_usarmy","rhsusf_M1083A1P2_B_d_flatbed_fmtv_usarmy"],[-2.5,-1.6,-2.5],[0,-7,0.25],\
+                 [[0,-1.5,0.75],180],[[-0.3,-1.5,1],180],[[-0.1,-2,-0.3],180],[[0.05,-2,1.95],180],[[0.25,-2,1.4]],[[0,-2,0.5]]]
+				   
+#define __ALLCAR (_OFFROADCAR select 0) + (_ZAMAKCAR select 0) + (_HAMMERCAR select 0) + (_UAZCAR select 0) + (_GAZCAR select 0) + (_URALINSCAR select 0) + (_URALARMCAR select 0)+ (_MSEVENCAR select 0)+ (_MEIGHTCAR select 0)
+#define __ALLCARARR [_OFFROADCAR,_ZAMAKCAR,_HAMMERCAR,_UAZCAR,_GAZCAR,_URALINSCAR,_URALARMCAR,_MSEVENCAR,_MEIGHTCAR]
+
+#define __FINDDATA(obj,var,data,findarr,arrall) {if(typeOf obj in var) exitWith { data = findarr}} foreach arrall
+#define __TEXTMOUNT "<t color='#FFFF33'>"+localize "STR_mount_in_vehicle"+"</t>"
+#define __TEXTDISMOUNT "<t color='#FFFF33'>"+localize "STR_dismount_out_vehicle"+"</t>"
+#define __TEXTGOGUNNER localize 'STR_go_gunner'
+#define __TEXTGOVEHICLE localize "STR_go_vehicle"
+#define _GETNAME(a) (getText (configFile >> "cfgVehicles" >> (typeOf a) >> "displayName"))
+#define _POSMODEL(a,b,c,d) [(a modelToWorld [b,c,0]) select 0,(a modelToWorld [b,c,0]) select 1,d]
+#define _VEHPOS _POSMODEL(_veh,0,-5,0)
+#define _DIST 4
+#define _CREW 1

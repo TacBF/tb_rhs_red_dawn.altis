@@ -1,0 +1,56 @@
+uniforms[] =
+{
+//===========================================================================
+// UNIFORMS
+//===========================================================================
+
+	{"rhs_googles_black", {__ICE_gear_allRoles}},
+	{"rhs_googles_clear", {__ICE_gear_allRoles}},
+
+
+	{"rhs_uniform_FROG01_wd", {__ICE_gear_infantryRoles,__ICE_gear_Diver}},
+	{"U_B_GhillieSuit", {__ICE_gear_Sniper}},
+	{"rhs_uniform_FROG01_wd", {__ICE_gear_Crewman}},
+	{"U_B_HeliPilotCoveralls", {__ICE_gear_Pilot}},
+//	{"U_B_Wetsuit", {__ICE_gear_Diver}},
+	
+//===========================================================================
+// VESTS
+//===========================================================================
+
+
+	
+	//{"V_PlateCarrier2_rgr", {__ICE_gear_infantryRoles}}, // 60 // used by Red
+
+	{"V_PlateCarrier1_rgr", {__ICE_gear_infantryRoles,__ICE_gear_Diver}}, // 60 // used by Red
+	/*
+	{"rhsusf_iotv_ocp_Rifleman", {__ICE_gear_Rifleman}},
+	{"rhsusf_iotv_ocp_Medic", {__ICE_gear_Medic}},
+	{"rhsusf_iotv_ocp_Grenadier", {__ICE_gear_Grenadier}},
+	{"rhsusf_iotv_ocp_Repair", {__ICE_gear_CombatEngineer}},
+	{"rhsusf_iotv_ocp_Squadleader", {__ICE_gear_SL}},
+	{"rhsusf_iotv_ocp_SAW", {__ICE_gear_MG}},
+	*/
+	
+	//{"V_Rangemaster_belt", {__ICE_gear_Crewman, __ICE_gear_Pilot}}, // 10
+	
+	//{"V_RebreatherB", {__ICE_gear_Diver}}, // 0
+	
+//===========================================================================
+// HELMETS
+//===========================================================================
+
+
+	{"rhsusf_mich_helmet_marpatwd_norotos", {__ICE_gear_infantryRoles}},
+	{"rhs_Booniehat_marpatwd", {__ICE_gear_Marksman}},
+
+	{"H_Bandanna_cbr", {__ICE_gear_Medic}},
+	//{"rhs_Booniehat_marpatwd", {__ICE_gear_Sniper}},
+
+	{"H_MilCap_fle", {__ICE_gear_SL}},
+	//{"rhsusf_ach_helmet_ess_ocp", {__ICE_gear_infantryRoles}},
+	{"rhsusf_cvc_green_helmet", {__ICE_gear_Crewman}},
+	{"H_PilotHelmetHeli_B", {__ICE_gear_Pilot}},
+	{"H_Beret_02", {__ICE_gear_Diver}},
+	{"H_CrewHelmetHeli_B", {__ICE_gear_Pilot}}
+};

@@ -1,0 +1,192 @@
+gear[] =
+{
+//==========================================================================================
+// PRIMARY WEAPONS
+//==========================================================================================
+
+	// Rifles
+	//{"rhs_weap_ak74m", {__ICE_gear_Inf}},
+	//{"rhs_weap_ak74m_2mag_camo", {__ICE_gear_Inf}},
+	//{"rhs_weap_ak74m_2mag", {__ICE_gear_Inf}},
+	//{"rhs_weap_ak74m_desert", {__ICE_gear_Inf}},
+	//{"rhs_weap_ak74m_camo", {__ICE_gear_Inf}},
+	//{"rhs_weap_ak74m_folded", {__ICE_gear_Inf}},
+	
+	//{"rhs_weap_ak74m_npz", {__ICE_gear_Inf}},	
+	{"rhs_weap_ak103", {__ICE_gear_Marksman,__ICE_gear_SL}},
+	//{"rhs_weap_ak103_npz", {__ICE_gear_Marksman}},
+		
+	{"rhs_weap_akm", {__ICE_gear_Inf}},
+	{"rhs_weap_akms", {__ICE_gear_allRoles}},
+	{"arifle_SDAR_F", {__ICE_gear_Diver}},
+	
+	
+	//{"arifle_TRG20_F", {__ICE_gear_Inf}},
+	//{"arifle_TRG21_F", {__ICE_gear_Inf}},
+	//{"srifle_DMR_01_F", {__ICE_gear_Inf}},
+	//{"hgun_PDW2000_F", {__ICE_gear_allRoles}},
+	//{"arifle_Mk20C_plain_F", {__ICE_gear_Inf}},
+	//{"arifle_Mk20_plain_F", {__ICE_gear_Inf}},
+	//{"SMG_02_F", {__ICE_gear_allRoles}}, // Scorpion
+
+	// Rifles/Optics
+	//{"arifle_Katiba_C_F", {__ICE_gear_Inf}},
+	
+	// Rifles/GL
+	//{"arifle_TRG21_GL_F", {__ICE_gear_Grenadier}},
+	//{"arifle_Mk20_GL_F", {__ICE_gear_Grenadier}},
+	
+	//{"rhs_weap_ak74m_gp25", {__ICE_gear_Grenadier}},	
+	{"rhs_weap_akm_gp25", {__ICE_gear_Grenadier}},
+	{"rhs_weap_akms_gp25", {__ICE_gear_Grenadier}},
+			
+
+	// Marksman Rifles
+	//{"rhs_weap_svdp_wd", {__ICE_gear_Marksman}},
+
+	// Sniper Rifles
+	
+	{"rhs_weap_svdp_wd", {__ICE_gear_Sniper}},
+	{"rhs_weap_svdp_wd_npz", {__ICE_gear_Sniper}},
+
+	
+	//{"srifle_DMR_01_F", {__ICE_gear_Marksman}},
+	//{"srifle_DMR_01_F", {__ICE_gear_Sniper}}, // same rifle as marksman, but uses different scope
+	//{"srifle_GM6_F", {__ICE_gear_Sniper}}, // too powerful
+
+	// Machine Guns
+	//{"LMG_Zafir_F", {__ICE_gear_MG}},
+	//{"rhs_weap_pkp", {__ICE_gear_MG}},
+	
+	{"rhs_weap_pkm", {__ICE_gear_MG}},
+	{"rhs_100Rnd_762x54mmR_green", {__ICE_gear_MG}},
+	
+	{"rhs_weap_M590_8RD", {__ICE_gear_Inf}},
+	//{"rhs_weap_M590_5RD", {__ICE_gear_Inf}},
+	
+	
+	
+	
+//==========================================================================================
+// ATTACHMENTS
+//==========================================================================================
+
+	{"optic_LRPS", {__ICE_gear_Sniper}},	
+	{"rhs_acc_pso1m2", {__ICE_gear_Marksman,__ICE_gear_SL}},
+	{"CUP_optic_PSO_3", {__ICE_gear_Marksman,__ICE_gear_Sniper}},	
+	{"optic_DMS", { __ICE_gear_Sniper}},	
+	{"rhs_acc_pgo7v", {__ICE_gear_HeavyAT}},
+	
+//==========================================================================================
+// LAUNCHER or BACKPACK/PACKS/BAGS
+//==========================================================================================
+
+	// Launchers
+	{"CUP_launch_RPG18", {__ICE_gear_LightAT}},
+	{"rhs_weap_rpg7", {__ICE_gear_HeavyAT}},		
+	
+	//{"launch_O_Titan_F", {__ICE_gear_AA}}, // AT weapon with AA ammo
+	{"CUP_launch_9K32Strela", {__ICE_gear_AA}}, 
+	//{"rhs_weap_fim92", {__ICE_gear_AA}},	
+	//{"launch_RPG32_F", {__ICE_gear_Diver}}, 
+
+	{"MineDetector", {__ICE_gear_CombatEngineer}},
+
+	// static weapons bags
+	//{"B_Mortar_01_support_F", {__ICE_gear_allBackpackCapableRoles}},
+	//{"B_Mortar_01_weapon_F", {__ICE_gear_CombatEngineer}},
+
+	// backpacks
+	{"TB_Hideout_Pack_East", {__ICE_gear_allRoles}},
+	{"TB_SuicideBomb_Pack", {__ICE_gear_CombatEngineer}},
+
+	//{"TB_backpack_ammo_RES_A3", {__ICE_gear_allTripodBackpackRoles}},
+	//{"TB_backpack_GL_RES", {__ICE_gear_Grenadier, __ICE_gear_Rifleman}},
+	//{"TB_backpack_MG_OPF_Zafir", {__ICE_gear_Rifleman, __ICE_gear_MG}}, // {__ICE_gear_allTripodBackpackRoles}+
+	{"TB_backpack_explosives_RES_APMines", {__ICE_gear_CombatEngineer}},
+	{"TB_backpack_explosives_RES_ATMines", {__ICE_gear_CombatEngineer}},
+	{"TB_backpack_explosives_RES_explosiveCharges", {__ICE_gear_CombatEngineer}},
+	//{"tf_mr3000_rhs", {__ICE_gear_allRoles}}, // MR3000 Long Range Backpack radio for OPFOR from Task Force Radio addon
+
+	{"rhs_rpg", { __ICE_gear_HeavyAT}},
+
+	{"B_Parachute", {__ICE_gear_Pilot}},
+	{"B_FieldPack_blk", {__ICE_gear_Diver}},
+	
+	{"B_Carryall_cbr", {__ICE_gear_AA}},
+	
+	{"TB_Medic_Pack", {__ICE_gear_Medic}},
+	
+	{"tf_mr3000_rhs", {__ICE_gear_SL}},
+	
+	//{"TB_backpack_O_G_Mortar_01_ammo", {__ICE_gear_CombatEngineer}},
+
+
+
+//==========================================================================================
+// SIDEARM
+//==========================================================================================
+	
+	// Pistols/hand guns
+	//{"hgun_ACPC2_F", {__ICE_gear_allRoles}},
+	//{"hgun_P07_F", {__ICE_gear_allRoles}},
+	//{"hgun_Rook40_F", {__ICE_gear_allRoles}},
+	//{"hgun_Pistol_heavy_01_F", {__ICE_gear_allRoles}},
+	//{"hgun_Pistol_heavy_02_F", {__ICE_gear_allRoles}},
+
+	{"rhs_weap_makarov_pmm", {__ICE_gear_allRoles}},
+	
+	
+
+	// Pistol attachments
+	//{"muzzle_snds_L", {__ICE_gear_Sniper}}, // pistol
+
+//==========================================================================================
+// EXPLOSIVES & EQUIPEMENT
+//==========================================================================================
+
+	// Explosives
+
+	{"rhs_mag_rgd5", {__ICE_gear_Inf}},
+	{"rhs_mag_rgn", {__ICE_gear_Inf}},
+	
+	//{"rhs_mag_nspn_yellow", {__ICE_gear_Inf}},
+	//{"rhs_mag_nspn_red", {__ICE_gear_Inf}},
+	//{"rhs_mag_nspn_green", {__ICE_gear_Inf}},
+	
+	{"DemoCharge_Remote_Mag", {__ICE_gear_CombatEngineer, __ICE_gear_Diver}},
+	//{"SatchelCharge_Remote_Mag", {__ICE_gear_CombatEngineer}},
+	//{"ATMine_Range_Mag", {__ICE_gear_CombatEngineer}},
+	//{"ClaymoreDirectionalMine_Remote_Mag", {__ICE_gear_Rifleman, __ICE_gear_CombatEngineer}},
+	//{"APERSMine_Range_Mag", {__ICE_gear_CombatEngineer}},
+	//{"APERSBoundingMine_Range_Mag", {__ICE_gear_CombatEngineer}},
+	//{"SLAMDirectionalMine_Wire_Mag", {__ICE_gear_CombatEngineer}},
+	//{"APERSTripMine_Wire_Mag", {__ICE_gear_Rifleman, __ICE_gear_CombatEngineer}},
+	
+	
+	{"SmokeShell", {__ICE_gear_allRoles}},
+	//{"SmokeShellYellow", {__ICE_gear_SL}},
+	//{"SmokeShellGreen", {__ICE_gear_SL}},
+	{"SmokeShellRed", {__ICE_gear_SL}},
+	//{"SmokeShellPurple", {__ICE_gear_SL}},
+	//{"SmokeShellOrange", {__ICE_gear_SL}},
+	//{"SmokeShellBlue", {__ICE_gear_SL}},
+
+
+	{"Chemlight_green", {__ICE_gear_allRoles}},
+	{"Chemlight_red", {__ICE_gear_SL}},
+	{"Chemlight_yellow", {__ICE_gear_allRoles}},
+	//{"Chemlight_blue", {__ICE_gear_SL}},
+
+	// Equipment
+	{"ToolKit", {__ICE_gear_CombatEngineer}},
+	{"lerca_1200_tan", {__ICE_gear_SL, __ICE_gear_Crewman, __ICE_gear_Sniper}},
+
+	
+	//{"rhs_weap_rsp30_red", {__ICE_gear_allRoles}},
+	//{"rhs_weap_rsp30_green", {__ICE_gear_allRoles}},
+	{"rhs_weap_rsp30_white", {__ICE_gear_allRoles}},
+
+	
+	{"Binocular", {__ICE_gear_allRoles}}
+};

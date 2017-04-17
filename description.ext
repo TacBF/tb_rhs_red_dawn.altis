@@ -1,0 +1,8 @@
+#include "tb_missionDetails.hpp"
+
+#include "tb_description.sqh"
+#include "tb_settings.hpp"
+#include "tb_objectReplacements.hpp"
+#include "tb_magazineLimitations.hpp"
+#include "tb_supply.hpp"
+#include "tb_vehicleInit.hpp"
